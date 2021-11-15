@@ -1107,6 +1107,16 @@ section {
     border-radius: .5rem;
   }
 }
+.form-group{
+  border: 1px solid black;
+  border-radius: 2rem;
+  font-size:2rem;
+  padding: 0.5rem;
+  margin:1rem;
+}
+.row .form-group .btn{
+  display: inline-block;
+}
 
 @media (max-width: 450px) {
   html {

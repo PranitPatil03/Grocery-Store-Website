@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>review</title>
+    <title>contact</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -95,107 +95,87 @@
 <!-- header section ends -->
 
 <div class="heading">
-    <h1>client's review</h1>
-    <p> <a href="home.html">home >></a> review </p>
+    <h1>contact us</h1>
+    <p> <a href="home.html">home >></a> contact </p>
 </div>
 
-<section class="info-container">
+<section class="contact">
 
-    <div class="info">
-        <img src="image/icon-1.png" alt="">
-        <div class="content">
-            <h3>fast delivery</h3>
-            <span>within 30 minutes</span>
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+123-456-7890</p>
+            <p>+111-222-3333</p>
         </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>shaikhanas#gmail.com</p>
+            <p>anasbhai@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our address</h3>
+            <p>mumbai, india - 400104</p>
+        </div>
+
     </div>
 
-    <div class="info">
-        <img src="image/icon-2.png" alt="">
-        <div class="content">
-            <h3>24 / 7 available</h3>
-            <span>call us anytime</span>
-        </div>
-    </div>
+    <div class="row">
 
-    <div class="info">
-        <img src="image/icon-3.png" alt="">
-        <div class="content">
-            <h3>easy payments</h3>
-            <span>cash or credits</span>
-        </div>
-    </div>
+        <!-- <form action="userifo.php" method="post">
+              <div class="form-group">
+                <label>Username:</label>
+                <input type="text" name="user"autocomplete="off" class="form-control">
+              </div>
+                <div class="form-group">
+                <label>Email Id:</label>
+                <input type="text" name="email"autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                <label>Mobile no:</label>
+                <input type="text" name="mobile"autocomplete="off" class="form-control">
+                </div>
+        
+                 <div class="form-group">
+                <label>Comment:</label>
+                <textarea class="form-control" name="comments"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+        </form> -->
 
-</section>
 
-<section class="review">
+        <form action="userifo.php" method="post">
+            <div class="form-group">
+              <label>Username</label>
+              <input type="text" name="user"autocomplete="off" class="form-control">
+              </div>
+              <div class="form-group">
+              <label>Email Id</label>
+              <input type="text" name="email"autocomplete="off" class="form-control">
+              </div>
+              <div class="form-group">
+              <label>Mobile no</label>
+              <input type="text" name="mobile"autocomplete="off" class="form-control">
+              </div>
+      
+               <div class="form-group">
+              <label>Comment</label>
+              <textarea class="form-control" name="comment"></textarea>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+        
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1633968347413!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
 
-    <div class="box">
-        <div class="user">
-            <img src="image/pic-1.png" alt="">
-            <div class="info">
-                <h3>john deo</h3>
-                <span>happy client</span>
-            </div>
-        </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
-    </div>
-
-    <div class="box">
-        <div class="user">
-            <img src="image/pic-2.png" alt="">
-            <div class="info">
-                <h3>john deo</h3>
-                <span>happy client</span>
-            </div>
-        </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
-    </div>
-
-    <div class="box">
-        <div class="user">
-            <img src="image/pic-3.png" alt="">
-            <div class="info">
-                <h3>john deo</h3>
-                <span>happy client</span>
-            </div>
-        </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
-    </div>
-
-    <div class="box">
-        <div class="user">
-            <img src="image/pic-4.png" alt="">
-            <div class="info">
-                <h3>john deo</h3>
-                <span>happy client</span>
-            </div>
-        </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
-    </div>
-
-    <div class="box">
-        <div class="user">
-            <img src="image/pic-5.png" alt="">
-            <div class="info">
-                <h3>john deo</h3>
-                <span>happy client</span>
-            </div>
-        </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
-    </div>
-
-    <div class="box">
-        <div class="user">
-            <img src="image/pic-6.png" alt="">
-            <div class="info">
-                <h3>john deo</h3>
-                <span>happy client</span>
-            </div>
-        </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
     </div>
 
 </section>
+
 
 
 
