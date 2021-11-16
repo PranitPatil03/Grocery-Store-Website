@@ -19,7 +19,7 @@
 
 <header class="header">
 
-    <a href="home.html" class="logo"> <i class="fas fa-shopping-basket"></i> groco </a>
+    <a href="home.html" class="logo"> <i class="fas fa-shopping-basket"></i> MyShop </a>
 
     <nav class="navbar">
         <a href="home.html">home</a>

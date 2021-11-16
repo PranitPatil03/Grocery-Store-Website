@@ -1139,7 +1139,7 @@ section {
 .main-container{
   width: 100%;
   height: 60%;
-  background-image: linear-gradient(rgba(60, 223, 11, 0.5), rgba(134, 199, 91, 0.87)), url(banner-2.jpg);
+  background: linear-gradient(rgba(113, 114, 113, 0.5), rgba(20, 20, 19, 0.87));
   background-position: center;
   background-size: cover;
   display: flex;
