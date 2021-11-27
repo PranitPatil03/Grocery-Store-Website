@@ -12,7 +12,7 @@ mysqli_select_db($con,'ecomuserdata');
 $user = $_POST['user'];
 $email = $_POST['email'];
 $mobile = $_POST['mobile'];
-$comments = $_POST['comment'];
+$comment = $_POST['comment'];
 
 $query = " insert into userinfodata (user, email, mobile, comment) 
 values ('$user', '$email', '$mobile', '$comment')";

@@ -162,10 +162,9 @@
               <label>Mobile no</label>
               <input type="text" name="mobile"autocomplete="off" class="form-control">
               </div>
-      
                <div class="form-group">
               <label>Comment</label>
-              <textarea class="form-control" name="comment"></textarea>
+              <input type="text"> <textarea class="form-control" name="comment"></textarea>
               </div>
               <button type="submit" class="btn">Submit</button>
             </form>
